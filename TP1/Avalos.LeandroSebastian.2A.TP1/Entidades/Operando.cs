@@ -88,11 +88,14 @@ namespace Entidades
         public static string BinarioDecimal(string binario)
         {
             int resultado = 0;
-            int cantidadCaracteres = binario.Length;
+            double stringADouble = Math.Abs(Convert.ToDouble(binario));
+            int doubleAInt = (int)stringADouble;
+            string intAString = doubleAInt.ToString();
+            int cantidadCaracteres = intAString.Length;
             string resultadoBinario = "";
-            if (Operando.EsBinario(binario) == true)
+            if (Operando.EsBinario(intAString) == true)
             {
-                foreach (char caracter in binario)
+                foreach (char caracter in intAString)
                 {
                     cantidadCaracteres--;
                     if (caracter == '1')
