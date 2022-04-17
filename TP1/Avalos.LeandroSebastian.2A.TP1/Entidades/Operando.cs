@@ -219,7 +219,7 @@ namespace Entidades
         /// Sobrecarga del operador / para dividir los atributos de dos objetos.
         /// </summary>
         /// <param name="n1">Primer objeto pasado por parametro</param>
-        /// <param name="numero2">Segundo objeto pasado por parametro</param>
+        /// <param name="n2">Segundo objeto pasado por parametro</param>
         /// <returns>Retorna la division de los atributos de dos objetos</returns>
         public static double operator /(Operando n1, Operando n2)
         {
