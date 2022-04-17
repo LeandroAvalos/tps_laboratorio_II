@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\drack\\source\\repos\\TrabajosPracticos\\Avalos.LeandroSebastian.2A.TP1\\MiCalculadora\\MiCalculadora.csproj",
+      "projectUniqueName": "C:\\Users\\drack\\source\\repos\\tps_laboratorio_II\\TP1\\Avalos.LeandroSebastian.2A.TP1\\MiCalculadora\\MiCalculadora.csproj",
       "projectName": "MiCalculadora",
-      "projectPath": "C:\\Users\\drack\\source\\repos\\TrabajosPracticos\\Avalos.LeandroSebastian.2A.TP1\\MiCalculadora\\MiCalculadora.csproj",
+      "projectPath": "C:\\Users\\drack\\source\\repos\\tps_laboratorio_II\\TP1\\Avalos.LeandroSebastian.2A.TP1\\MiCalculadora\\MiCalculadora.csproj",
       "packagesPath": "C:\\Users\\drack\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\drack\\source\\repos\\TrabajosPracticos\\Avalos.LeandroSebastian.2A.TP1\\MiCalculadora\\obj\\",
+      "outputPath": "C:\\Users\\drack\\source\\repos\\tps_laboratorio_II\\TP1\\Avalos.LeandroSebastian.2A.TP1\\MiCalculadora\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\drack\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -53,8 +53,8 @@
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
           "projectReferences": {
-            "C:\\Users\\drack\\source\\repos\\TrabajosPracticos\\Avalos.LeandroSebastian.2A.TP1\\Entidades\\Entidades.csproj": {
-              "projectPath": "C:\\Users\\drack\\source\\repos\\TrabajosPracticos\\Avalos.LeandroSebastian.2A.TP1\\Entidades\\Entidades.csproj"
+            "C:\\Users\\drack\\source\\repos\\tps_laboratorio_II\\TP1\\Avalos.LeandroSebastian.2A.TP1\\Entidades\\Entidades.csproj": {
+              "projectPath": "C:\\Users\\drack\\source\\repos\\tps_laboratorio_II\\TP1\\Avalos.LeandroSebastian.2A.TP1\\Entidades\\Entidades.csproj"
             }
           }
         }
