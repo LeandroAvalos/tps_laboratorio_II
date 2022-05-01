@@ -21,18 +21,18 @@ namespace Entidades
         /// <summary>
         /// Constructor sin parametros que se encarga de iniciar el atributo en 0.
         /// </summary>
-        public Operando()
+        public Operando() :this("0")
         {
-            this.numero = 0;
+
         }
 
         /// <summary>
         /// Constructor que recibe como parametro un double.
         /// </summary>
         /// <param name="numero">Double recibido para asignarlo en el atributo del objeto</param>
-        public Operando(double numero)
+        public Operando(double numero) :this(numero.ToString())
         {
-            this.numero = numero;
+
         }
 
         /// <summary>
