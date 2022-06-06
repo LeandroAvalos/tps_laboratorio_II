@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfCliente xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Cliente>
+    <NumeroDeCliente>1</NumeroDeCliente>
+    <Documento>37984561</Documento>
+    <Nombre>Leandro Sebastian</Nombre>
+    <Apellido>Avalos</Apellido>
+    <NumeroTelefonico>1145679832</NumeroTelefonico>
+    <DireccionParticular>Chascomus 200</DireccionParticular>
+    <Edad>30</Edad>
+    <EnServicio>true</EnServicio>
+    <Servicio xsi:type="SeguroContraTodo">
+      <Precio>10000</Precio>
+      <AnioDelVehiculo>2022</AnioDelVehiculo>
+      <MarcaDelVehiculo>McLaren</MarcaDelVehiculo>
+      <ModeloDelVehiculo>Senna</ModeloDelVehiculo>
+      <CoberturaPorChoque>true</CoberturaPorChoque>
+      <CoberturaPorRobo>true</CoberturaPorRobo>
+      <CoberturaPorGranizo>true</CoberturaPorGranizo>
+      <CoberturaPorIncendioParcial>true</CoberturaPorIncendioParcial>
+      <CoberturaDeParabrisasYLuneta>true</CoberturaDeParabrisasYLuneta>
+      <CoberturaReposicionDeAirbag>true</CoberturaReposicionDeAirbag>
+      <CoberturaSeguroDelConductor>true</CoberturaSeguroDelConductor>
+      <CoberturaPorAccidenteTotal>true</CoberturaPorAccidenteTotal>
+      <CoberturaPorIncendioTotal>true</CoberturaPorIncendioTotal>
+    </Servicio>
+  </Cliente>
+  <Cliente>
+    <NumeroDeCliente>2</NumeroDeCliente>
+    <Documento>40657894</Documento>
+    <Nombre>Rodolfo</Nombre>
+    <Apellido>Perez</Apellido>
+    <NumeroTelefonico>1144556699</NumeroTelefonico>
+    <DireccionParticular>Damasco 123</DireccionParticular>
+    <Edad>25</Edad>
+    <EnServicio>true</EnServicio>
+    <Servicio xsi:type="SeguroIntermedio">
+      <Precio>6500</Precio>
+      <AnioDelVehiculo>2021</AnioDelVehiculo>
+      <MarcaDelVehiculo>Lamborghini</MarcaDelVehiculo>
+      <ModeloDelVehiculo>Diablo</ModeloDelVehiculo>
+      <CoberturaPorChoque>true</CoberturaPorChoque>
+      <CoberturaPorRobo>true</CoberturaPorRobo>
+      <CoberturaPorGranizo>true</CoberturaPorGranizo>
+      <CoberturaPorIncendioParcial>true</CoberturaPorIncendioParcial>
+      <CoberturaDeParabrisasYLuneta>true</CoberturaDeParabrisasYLuneta>
+      <CoberturaReposicionDeAirbag>true</CoberturaReposicionDeAirbag>
+      <CoberturaSeguroDelConductor>false</CoberturaSeguroDelConductor>
+      <CoberturaPorAccidenteTotal>false</CoberturaPorAccidenteTotal>
+      <CoberturaPorIncendioTotal>false</CoberturaPorIncendioTotal>
+    </Servicio>
+  </Cliente>
+  <Cliente>
+    <NumeroDeCliente>3</NumeroDeCliente>
+    <Documento>25469874</Documento>
+    <Nombre>Maria</Nombre>
+    <Apellido>Luz</Apellido>
+    <NumeroTelefonico>1103265479</NumeroTelefonico>
+    <DireccionParticular>Balcarce 400</DireccionParticular>
+    <Edad>27</Edad>
+    <EnServicio>true</EnServicio>
+    <Servicio xsi:type="SeguroBasico">
+      <Precio>3000</Precio>
+      <AnioDelVehiculo>2020</AnioDelVehiculo>
+      <MarcaDelVehiculo>Mazda</MarcaDelVehiculo>
+      <ModeloDelVehiculo>Rx7</ModeloDelVehiculo>
+      <CoberturaPorChoque>true</CoberturaPorChoque>
+      <CoberturaPorRobo>true</CoberturaPorRobo>
+      <CoberturaPorGranizo>true</CoberturaPorGranizo>
+      <CoberturaPorIncendioParcial>false</CoberturaPorIncendioParcial>
+      <CoberturaDeParabrisasYLuneta>false</CoberturaDeParabrisasYLuneta>
+      <CoberturaReposicionDeAirbag>false</CoberturaReposicionDeAirbag>
+      <CoberturaSeguroDelConductor>false</CoberturaSeguroDelConductor>
+      <CoberturaPorAccidenteTotal>false</CoberturaPorAccidenteTotal>
+      <CoberturaPorIncendioTotal>false</CoberturaPorIncendioTotal>
+    </Servicio>
+  </Cliente>
+  <Cliente>
+    <NumeroDeCliente>4</NumeroDeCliente>
+    <Documento>20165498</Documento>
+    <Nombre>Ivan</Nombre>
+    <Apellido>Drago</Apellido>
+    <NumeroTelefonico>1198746523</NumeroTelefonico>
+    <DireccionParticular>Florida 700</DireccionParticular>
+    <Edad>35</Edad>
+    <EnServicio>true</EnServicio>
+    <Servicio xsi:type="SeguroContraTodo">
+      <Precio>10000</Precio>
+      <AnioDelVehiculo>2019</AnioDelVehiculo>
+      <MarcaDelVehiculo>Aston Martin</MarcaDelVehiculo>
+      <ModeloDelVehiculo>DB11</ModeloDelVehiculo>
+      <CoberturaPorChoque>true</CoberturaPorChoque>
+      <CoberturaPorRobo>true</CoberturaPorRobo>
+      <CoberturaPorGranizo>true</CoberturaPorGranizo>
+      <CoberturaPorIncendioParcial>true</CoberturaPorIncendioParcial>
+      <CoberturaDeParabrisasYLuneta>true</CoberturaDeParabrisasYLuneta>
+      <CoberturaReposicionDeAirbag>true</CoberturaReposicionDeAirbag>
+      <CoberturaSeguroDelConductor>true</CoberturaSeguroDelConductor>
+      <CoberturaPorAccidenteTotal>true</CoberturaPorAccidenteTotal>
+      <CoberturaPorIncendioTotal>true</CoberturaPorIncendioTotal>
+    </Servicio>
+  </Cliente>
+  <Cliente>
+    <NumeroDeCliente>5</NumeroDeCliente>
+    <Documento>15498746</Documento>
+    <Nombre>Carlos</Nombre>
+    <Apellido>Guzman</Apellido>
+    <NumeroTelefonico>1198746532</NumeroTelefonico>
+    <DireccionParticular>Lavalle 1000</DireccionParticular>
+    <Edad>40</Edad>
+    <EnServicio>true</EnServicio>
+    <Servicio xsi:type="SeguroIntermedio">
+      <Precio>6500</Precio>
+      <AnioDelVehiculo>2018</AnioDelVehiculo>
+      <MarcaDelVehiculo>Toyota</MarcaDelVehiculo>
+      <ModeloDelVehiculo>Supra</ModeloDelVehiculo>
+      <CoberturaPorChoque>true</CoberturaPorChoque>
+      <CoberturaPorRobo>true</CoberturaPorRobo>
+      <CoberturaPorGranizo>true</CoberturaPorGranizo>
+      <CoberturaPorIncendioParcial>true</CoberturaPorIncendioParcial>
+      <CoberturaDeParabrisasYLuneta>true</CoberturaDeParabrisasYLuneta>
+      <CoberturaReposicionDeAirbag>true</CoberturaReposicionDeAirbag>
+      <CoberturaSeguroDelConductor>false</CoberturaSeguroDelConductor>
+      <CoberturaPorAccidenteTotal>false</CoberturaPorAccidenteTotal>
+      <CoberturaPorIncendioTotal>false</CoberturaPorIncendioTotal>
+    </Servicio>
+  </Cliente>
+</ArrayOfCliente>
