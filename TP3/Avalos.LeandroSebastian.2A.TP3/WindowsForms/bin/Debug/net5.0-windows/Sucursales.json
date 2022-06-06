@@ -1,0 +1,32 @@
+[
+  {
+    "Barrio": "Palermo",
+    "NumeroTelefonico": 1145698746,
+    "DireccionParticular": "Calle Falsa 325",
+    "CodigoDeSucursal": "845DF",
+    "AbiertoDe": "Lunes",
+    "AbiertoHasta": "Viernes",
+    "Apertura": "08:00",
+    "Cierre": "16:00"
+  },
+  {
+    "Barrio": "Mugica",
+    "NumeroTelefonico": 1132479854,
+    "DireccionParticular": "Carlos H Perette",
+    "CodigoDeSucursal": "23DF4",
+    "AbiertoDe": "Lunes",
+    "AbiertoHasta": "Sabado",
+    "Apertura": "09:00",
+    "Cierre": "17:00"
+  },
+  {
+    "Barrio": "Almagro",
+    "NumeroTelefonico": 1198746542,
+    "DireccionParticular": "Velez 500",
+    "CodigoDeSucursal": "23GHJ",
+    "AbiertoDe": "Miercoles",
+    "AbiertoHasta": "Domingo",
+    "Apertura": "11:00",
+    "Cierre": "20:00"
+  }
+]
