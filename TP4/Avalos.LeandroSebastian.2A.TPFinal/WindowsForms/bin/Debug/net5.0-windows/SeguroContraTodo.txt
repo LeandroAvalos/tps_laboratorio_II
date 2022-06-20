@@ -1,0 +1,11 @@
+Precio: 10000$
+Coberturas:
+  -> Tiene cobertura por choque
+  -> Tiene cobertura por robo
+  -> Tiene cobertura por granizo
+  -> Tiene cobertura por incendio parcial
+  -> Tiene cobertura de parabrisas y luneta
+  -> Tiene cobertura de reposicion de airbag
+  -> Tiene cobertura de seguro del conductor
+  -> Tiene cobertura por accidente total
+  -> Tiene cobertura por incendio total
