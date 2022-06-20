@@ -197,7 +197,9 @@ namespace WindowsForms
         /// </summary>
         private void IniciarHilo()
         {
-            Task task = new Task(() => ArranqueDeProceso(progressBar, lblBarraDeProgreso));
+            CancellationTokenSource cancellationTokenSource = new CancellationTokenSource();
+            CancellationToken token = cancellationTokenSource.Token;
+            Task task = new Task(() => ArranqueDeProceso(progressBar, lblBarraDeProgreso, cancellationTokenSource), token);
             task.Start();         
         }
 
@@ -207,9 +209,9 @@ namespace WindowsForms
         /// </summary>
         /// <param name="barraProgresiva">Barra de progreso enviada por parametro</param>
         /// <param name="tituloBarra">Label que pertenece al progreso de la barra de progreso</param>
-        private void ArranqueDeProceso(ProgressBar barraProgresiva, Label tituloBarra)
+        private void ArranqueDeProceso(ProgressBar barraProgresiva, Label tituloBarra, CancellationTokenSource cancellationTokenSource)
         {
-            while (barraProgresiva.Value < barraProgresiva.Maximum)
+            while (barraProgresiva.Value < barraProgresiva.Maximum && !cancellationTokenSource.IsCancellationRequested)
             {
                 Thread.Sleep(random.Next(100, 400));
                 IncrementoDeBarraProgreso(barraProgresiva, tituloBarra);
@@ -252,7 +254,7 @@ namespace WindowsForms
             else if(barraProgresiva.Value == barraProgresiva.Maximum)
             {
                 btnSucursales.Enabled = true;
-                MessageBox.Show("Se han terminado de cargar los archivos de las scurusales.\nYa puede acceder al boton de sucursales.", "Carga de archivos Completa", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                MessageBox.Show("Se han terminado de cargar los archivos de las sucursales.\nYa puede acceder al boton de sucursales.", "Carga de archivos Completa", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 barraProgresiva.Visible = false;
                 lblBarraDeProgreso.Visible = false;
             }

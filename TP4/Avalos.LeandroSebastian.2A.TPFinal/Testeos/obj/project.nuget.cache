@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FyALzSgTWj3hIewc2H/s13PLnrlBP8lQWSiLCuTKvPOJNCUSGC1wx2IW1hjqN1jUINMkTkNwIEsJsaErKhNUaA==",
+  "dgSpecHash": "4wAEXeyVORAirv/VViUI7IEM0RPwJ7pTSJJfteJ+3DMMJ64gJ8Rpo6ErRdbOxRK7YCwA55BH6RSre1pFH5jXpw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\drack\\source\\repos\\Avalos.LeandroSebastian.2A.TPFinal\\Testeos\\Testeos.csproj",
+  "projectFilePath": "C:\\Users\\drack\\source\\repos\\tps_laboratorio_II\\TP4\\Avalos.LeandroSebastian.2A.TPFinal\\Testeos\\Testeos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\drack\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",
     "C:\\Users\\drack\\.nuget\\packages\\microsoft.codecoverage\\16.9.4\\microsoft.codecoverage.16.9.4.nupkg.sha512",

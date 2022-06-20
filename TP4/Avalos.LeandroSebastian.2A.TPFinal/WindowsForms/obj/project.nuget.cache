@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cchVokkMHSJ4otADziAkdNc+mb6GzUc/kHsOrUv9yDQFYGQCxAk8FJX2p365/3IW/SKcqzJb7llieoFhcwCRxw==",
+  "dgSpecHash": "8CMxI/UU2w5xlynIRAXy1mOVIxxRlBc2GkHWwYwVv6qwkW1i2jHJSRBbBBP5+OYICnkRq3MNnUDa+tX4rgQTCA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\drack\\source\\repos\\Avalos.LeandroSebastian.2A.TPFinal\\WindowsForms\\WindowsForms.csproj",
+  "projectFilePath": "C:\\Users\\drack\\source\\repos\\tps_laboratorio_II\\TP4\\Avalos.LeandroSebastian.2A.TPFinal\\WindowsForms\\WindowsForms.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\drack\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\drack\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
