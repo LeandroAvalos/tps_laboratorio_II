@@ -3,7 +3,7 @@ GO
 use Sucursales;
 GO
 create table Sucursales(
-barrio varchar(20),
+barrio varchar(20) not null,
 numeroTelefonico decimal(18, 0) not null,
 direccionParticular varchar(20) not null,
 codigoDeSecursal varchar(5) not null,
